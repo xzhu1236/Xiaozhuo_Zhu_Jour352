@@ -11,6 +11,20 @@ BODY {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#title {
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0px 0px;
+}
+
+.menu {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
 }
 
 #name {
@@ -46,13 +60,37 @@ strong {
     font-weight: 600;
 }
 
-h4 {
+.organization {
     font-size: 1.5em;
     font-weight: 400;
 }
 
-h5 {
+.date {
     font-size: 1em;
     font-weight: 400;
     font-style: italic;
+    margin-top: 3px 0px 0px;
+}
+
+.description {
+    margin: 10px 10px 0px;
+}
+
+#degrees {
+    margin: 5px 0px 0px;
+}
+
+#do {
+    margin: 5px 0px 0px;
+}
+
+li {
+    font-size: 1em;
+}
+
+.top {
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
