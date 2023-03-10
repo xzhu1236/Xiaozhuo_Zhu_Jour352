@@ -15,3 +15,18 @@
     width: 900px;
     font-family: Helvetica, sans-serif;
 }
+
+#headline {
+    font-family: Helvetica, sans-serif;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 13px;
+}
