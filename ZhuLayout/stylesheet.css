@@ -26,12 +26,15 @@
     font-style: italic;
 }
 
-#headimg {
-    width: 50%;
-    height: 50%;
+.picture {
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin: 0 auto;
 }
 
-p {
-    font-family: Georgia, serif;
-    font-size: 13px;
+blockquote {
+    font-size: 20px;
+    color: maroon;
+    font-style: italic;
 }
