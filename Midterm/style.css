@@ -1,10 +1,32 @@
+#container{
+    width: 65em;
+    margin: 0 auto;
+}
+
 .container-fluid {
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     background-color: lightgoldenrodyellow;
 }
+/*Images*/
+#headerimg {
+    height: 75%;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
 
+.bodyimg {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
 
+.caption {
+    text-align: center;
+}
+/*Text*/
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -15,7 +37,29 @@ h2 {
     font-size: 16px;
 }
 
+.other {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#byline {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 p {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
+}
+
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+blockquote {
+    color: maroon;
+    font-style: italic;
+    font-size: 20px;
 }
