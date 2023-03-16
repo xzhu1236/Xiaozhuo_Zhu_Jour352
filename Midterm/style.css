@@ -1,6 +1,9 @@
-#masthead {
+.container-fluid {
     font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    background-color: lightgoldenrodyellow;
 }
+
 
 h1 {
     font-family: 'Montserrat', sans-serif;
