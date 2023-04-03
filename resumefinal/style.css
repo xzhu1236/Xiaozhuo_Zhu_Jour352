@@ -1,0 +1,11 @@
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#topper {
+    background-color: blue;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 10px;
+}
