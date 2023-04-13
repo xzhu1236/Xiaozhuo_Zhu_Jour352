@@ -18,35 +18,106 @@
     </head>
 
     <body>
-
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
         <!--Page topper start-->
         <div id="topper">
-            <p id="name">Xiaozhuo Zhu</p>
+            <div id="headtext">
+                <div id="name">Xiaozhuo Zhu</div><br>
+                <div id="occupation">Journalist</div>
+            </div>
         </div>
         <!--Page topper end-->
 
+        <!--Body-->
         <div id="backgroundcon">
             <div id="textcon">
                 <div class="row">
                     <div class="col-md-4">
-        
+                        <div id="portrait">
+                            <img id="mypic" src="images/IMG_0643.JPG" alt="A portrait of me">
+                        </div>
                     </div>
                     <div class="col-md-8">
-                        <p class="subhead">About Me</p>
+                        <div id="aboutme">
+                            <p class="subhead">About me</p>
+                            <p>Xiaozhuo Zhu is a student at the University of Maryland. He is an up-and-coming journalist honing his technical skills and earning work experience. Zhu has done event coverage and organization profiles for a student paper; The Diamondback.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="subhead">Links:</div>
+                    <div>xzhu1236@terpmai.umd.edu</div>
+                    <a href="https://www.linkedin.com/in/xiaozhuo-zhu-04a561257/">LinkedIn</a>
+                    <a href=""
+                </div>
+                <div class="section">
+                    <p class="subhead">Experience</p>
+                    <div class="work">
+                        <div class="workhead">General assignment reporter</div>
+                        <div>Diamondback</div>
+                        <div class="date">2021-2022</div>
+                        <div>Wrote four articles for the paper that were published online</div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <p class="subhead">Heading 1</p>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                        <div class="section">
+                            <p class="subhead">Education</p>
+                                <ul>
+                                    <li>B.A., Journalism, University of Maryland College Park, Anticipated May 2025</li>
+                                </ul>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <p class="subhead">Heading 2</p>
-                            <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor.</p>
+                        <div class="section">
+                            <p class="subhead">Skills</p>
+                            <ul>
+                                <li>Understanding of HTML</li>
+                                <li>Photo editing with Adobe Photoshop</li>
+                                <li>Mastery of AP style</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!--Body end-->
 
         <!-- Separate Popper and Bootstrap JS goes at the bottom of your body section -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
