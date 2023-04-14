@@ -97,3 +97,13 @@
 .navbar-custom {
     background-color: #4C187A !important;
 }
+
+.navbar-brand {
+    color: #FFF824 !important;
+    font-family: Verdana, Tahoma, sans-serif !important;
+}
+
+.nav-link {
+    color: #FFF824 !important;
+    font-family: Verdana, Tahoma, sans-serif !important;
+}
