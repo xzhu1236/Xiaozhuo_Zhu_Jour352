@@ -92,6 +92,40 @@ p {
     height: 500px;
 }
 
+/*pullquote*/
+
+.pullquote {
+    font-family: 'Jost', sans-serif;
+    color: maroon;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: left;
+    padding: 15px 0px 15px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.quoteattr {
+    font-size: .5em;
+    font-weight: 400;
+}
+
+.fancybox {
+    border: 2px goldenrod double;
+}
+
+.boxtitle {
+    font-size: 2em;
+    background-color: goldenrod;
+}
+
+.boxlist {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .footer {
     width: 100%;
     height: 100px;
