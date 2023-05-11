@@ -1,0 +1,158 @@
+/*navbar*/
+
+.nav-logo {
+    color: white;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.red {
+    color: red;
+}
+
+/*splash img*/
+
+.heroimg {
+    width: 100%;
+}
+
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    background-color: black;
+    opacity: .7;
+}
+
+.hero-head {
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 6em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero-sub {
+    padding-bottom: 10px;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+/*body*/
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 100%;
+}
+
+.headline {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.byline {
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.chaphead {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+}
+
+.bodyimg {
+   width: 500px;
+}
+
+.caption {
+   color: gray;
+   font-size: .75em;
+}
+
+.imagecap {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+/*pullquote*/
+
+.pullquote {
+    font-family: 'Jost', sans-serif;
+    color: maroon;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: left;
+    padding: 15px 0px 15px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.quoteattr {
+    font-size: .5em;
+    font-weight: 400;
+}
+
+.fancybox {
+    border: 2px goldenrod double;
+}
+
+.boxtitle {
+    font-size: 2em;
+    background-color: goldenrod;
+}
+
+.boxlist {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+@media(max-width: 800px) {
+    p {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .headline {
+        font-size: 2em;
+    }
+
+    .chaphead {
+        font-size: 1.25em;
+    }
+
+    .hero-head {
+        font-size: 1em;
+    }
+
+    .hero-sub {
+        font-size: 1em;
+    }
+}
