@@ -10,52 +10,40 @@
          <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!-- Add bootstrap icons (it's basically a custom font) -->
-        <!--google font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
 
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
       <link rel="stylesheet" type="text/css" href="style.css">
 
+      <!--google font-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 
     </head>
 
     <body>
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-ig navbar-light navstyle">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Mammals Daily</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#intro">Introduction</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+                  <a class="nav-link" href="#basic">The Basics of Mammals</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a class="nav-link" href="#human">What makes Humans Human</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#boy">Genome of a Good Boy</a>
                 </li>
               </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
             </div>
           </div>
         </nav>
@@ -68,26 +56,19 @@
         </div>
         <!--Hero container-->
 
-        <div id="container">
+        <div class="fluid-container">
         
         <!--main body-->
 
         <p class="byline">By Mark Johnson and Dino Grandoni</p>
 
-        <p>Researchers have brought scientific truth to the legend of Balto, settling once and for all the question of whether a wolf or dog led a lifesaving run carrying medicine to sick children.</p>
+        <p id="intro">Researchers have brought scientific truth to the legend of Balto, settling once and for all the question of whether a wolf or dog led a lifesaving run carrying medicine to sick children.</p>
 
         <p>In 1925, with the small Alaskan town of Nome gripped by a raging blizzard and a deadly diphtheria outbreak, Balto led 12 other dogs through the last, blustering 53 miles of the now-famous “serum run.” The feat, memorialized by a statue in New York’s Central Park and books and movies, preserved the sled dog’s place among the world’s most famous animals.</p>
+
+        <iframe src="https://uploads.knightlab.com/storymapjs/3867c7cd69ef1c2f1e54ed8a4d0a7cb9/final352balto/draft.html" frameborder="0" width="100%" height="600"></iframe>
           
         <p>Now, nearly a century later, Balto’s genetic blueprint is entering the annals of science, thanks to a massive new project that seeks to rewrite our understanding of mammalian evolution, unlocking knowledge that may help treat human disease and stave off species extinction.</p>
-
-        <div class="row">
-          <div class="col-md-4"></div>
-          <div class="col-md-4">
-            <img src="image/Wikipedia Balto.jpeg" class="bodyimg">
-            <p class="caption">Caption</p>
-          </div>
-          <div class="col-md-4"></div>
-        </div>
           
         <p>The research, published Thursday in 11 papers in the journal Science, also yields valuable insight into the profound question of what makes us unique among species.</p>
 
@@ -101,22 +82,27 @@
       <!--Fullscreen image-->
 
       <img src="image/CBS balto.jpeg" class="fullimg" alt="">
-      <p class="caption">Solomon Simmons sits in his East Baltimore home. Source: Amina Lampkins | University of Maryland</p>
+      <p class="caption">Photo of Gunnar Kasson and Balto, with the statue of Balto is in the back. Kasson lead the dog team which saved many lives in Nome when he arrived there with the serum, when the people were suffering from diptheria. Balto was the leader of the dogs. Taken: Dec. 15, 1925 Source: CBS News | Getty Images</p>
 
-      <div class="container">
+      <div class="fluid-container">
       <!--Open div-->
 
         <p>By pinpointing parts of the mammalian genome — sometimes just single letters of DNA — that have remained the same through tens of millions of years of evolution, scientists may be able to identify the most crucial parts of our shared genetic makeup, those where change can spell disaster.</p>
 
         <p>“This is really an unprecedented view of the evolutionary history of mammalian genomes,” said Maria Chikina, an assistant professor of computational and systems biology at the University of Pittsburgh School of Medicine who was not involved in the research. “We now know which parts of the genome are important in building a mammal.”</p>
 
-        <p class="chaphead">Learning the ‘basic stuff about mammals’</p>
+        <p class="chaphead" id="basic">Learning the ‘basic stuff about mammals’</p>
 
         <p>Scientists first sequenced the human genome two decades ago in one of this century’s biggest scientific breakthroughs. Yet they remain stumped about what much of that DNA does in our bodies. Some parts of the genome randomly mutate across generations with no discernible effect. Other regions stay the same, likely because they encode for a vital protein or something else necessary for life.</p>
 
         <p>To better understand ourselves, geneticists have looked to other mammals. In 2011, the Broad Institute of MIT and Harvard unraveled 29 mammal genomes to help find the most crucial parts of our shared DNA.</p>
 
         <p>“We can actually pinpoint exactly which positions have a function and which don’t,” said Kerstin Lindblad-Toh, a scientific director at the Broad Institute and one of the Zoonomia consortium’s leads.</p>
+
+        <div class="pullquote">
+          <p>You can walk up to anybody on the street and you can ask them what happened to the dinosaurs. They know exactly when the dinosaurs went extinct.</p>
+          <p class="quoteattr">~ Nicole Foley</p>
+        </div>
 
         <p>But Lindblad-Toh and others soon realized they didn’t have enough mammals to do a thorough analysis. That’s when they began collecting genomes from species ranging from the mighty gray whale to the minuscule bumblebee bat.</p>
 
@@ -141,7 +127,7 @@
 
         <p>The tool does not negate the need for on-the-ground animal surveys, Wilder said. But field work can be costly, and “genomic information can give us an initial assessment of which ones should be prioritized for those really in-depth assessments.”</p>
 
-        <p class="chaphead">What makes humans human</p>
+        <p class="chaphead" id="human">What makes humans human</p>
 
         <p>Zoonomia researchers also discovered that sometimes what’s left out of the genome turns out to be just as revealing as what’s in it.</p>
 
@@ -162,7 +148,7 @@
 
         <p>“There’s one species we’re missing in there that will annoy me to no end, which is just the raccoon. For some reason, we couldn’t get a raccoon DNA sample,” said Elinor Karlsson, a director at the Broad Institute who also co-led the Zoonomia group. “How is that the one we’re missing?”</p>
 
-        <p class="chaphead">Analyzing the genome of ‘a good boy’</p>
+        <p class="chaphead" id="boy">Analyzing the genome of ‘a good boy’</p>
 
         <p>While most of the individuals in the Zoonomia studies are anonymous, Balto was chosen in part because of his fame and the fact that his genetic blueprint could be compared with his taxidermied remains, which have been kept for 90 years at the Cleveland Museum of Natural History.</p>
 
@@ -171,6 +157,15 @@
         <p>Balto’s genetic blueprint is especially interesting because he lived before widespread, human-imposed breeding practices that have set strict physical standards for canines on the show circuit.</p>
 
        <p>Sled dogs were bred not to achieve a specific appearance but to be fast and strong. Scientists discovered that Balto was genetically diverse, with few traces of the kind of inbreeding found in today’s pedigreed dogs. Inbreeding can allow rare mutations, including some that cause health problems, to take root in specific breeds.</p>
+
+       <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <img src="image/Wikipedia Balto.jpeg" class="bodyimg">
+          <p class="caption">Baito with Gunnar Kaasen Source: Wikipedia</p>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
 
         <p>Balto’s DNA reflected his status as an intermediate canine, neither fully domesticated like today’s pets, nor wild like coyotes and wolves. Domesticated dogs are genetically suited to digest the starch found in many commercial pet foods. Wild dogs are meat eaters with far less ability to digest starch. Balto’s starch-digesting ability fell in between the two groups.</p>
 
@@ -182,20 +177,23 @@
 
         <p>Balto and some of his teammates toured the United States for two years, only to end up on display in a dime museum in Los Angeles. A businessman from Cleveland saw the dogs and agreed to buy them, provided that he could raise the $1,500 purchase price (equivalent to roughly $30,000 today). Factory workers, schoolchildren and others helped raise the money to bring the dogs to Cleveland.</p>
 
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <img src="image/Cleveland balto.jpeg" class="bodyimgbig">
+            <p class="caption">Balto taxidermy at the Cleveland MetroParks Zoo. Balto and his team were sold to perform on the vaudeville circuit until they were purchased for a “dime” museum in Los Angeles. It was there that Cleveland businessman George Kimball discovered them and offered to buy them for $2,000. He had to raise the money in just two weeks to purchase the dogs. The Balto Fund was created and broadcast nationwide, and in just 10 days he was able to purchase the dogs Source: Cleveland Traveler</p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
         <p>Now, decades later, the sequencing of Balto’s genome has laid to rest an old rumor that he was actually a wolf.</p>
 
         <p>“He was not a wolf,” Moon said. “He was just a good boy.”</p>
-
-        <div class="pullquote">
-          <p>Excepteur sint occaecat cupidatat non proident</p>
-          <p class="quoteattr">~ Chris</p>
-        </div>
 
         </div>
 
         <!--footer start-->
         <div class="footer">
-        <p>footer</p>
         </div>
 
         <!-- Separate Popper and Bootstrap JS goes at the bottom of your body section -->
