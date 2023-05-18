@@ -13,20 +13,23 @@
 
 /*splash img*/
 
-.heroimg {
-    width: 100%;
-}
-
 .hero-container {
+    background-image: url("image/Central\ park.com\ Balto\ statue.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     text-align: center;
     color: white;
+    width: 100%;
+    height: 620px;
+    margin-bottom: 20px;
 }
 
 .overlay {
     position: absolute;
     width: 100%;
-    top: 40%;
+    top: 30%;
     background-color: black;
     opacity: .7;
 }
@@ -45,6 +48,12 @@
     margin: 0 auto;
     font-family: Helvetica, sans-serif;
     font-size: 1.5em;
+}
+
+/*Graphics*/
+
+#datawrapper-chart-xRkjZ, #datawrapper-chart-jup72 {
+    margin-bottom: 20px;
 }
 
 /*body*/
@@ -79,19 +88,21 @@ p {
     font-family: Helvetica, sans-serif;
 }
 
+/*Images*/
+
+.fullimg {
+    width: 100%;
+}
+
 .bodyimg {
-   width: 500px;
+   width: 320px;
+   display: block;
+   margin: 0 auto;
 }
 
 .caption {
    color: gray;
    font-size: .75em;
-}
-
-.imagecap {
-    margin: 0 auto;
-    width: 500px;
-    height: 500px;
 }
 
 /*pullquote*/
