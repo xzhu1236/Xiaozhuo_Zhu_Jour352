@@ -1,5 +1,9 @@
 /*navbar*/
 
+.nav-custom {
+    background-color: green;
+}
+
 .nav-logo {
     color: white;
     margin: 0 auto;
@@ -7,8 +11,8 @@
     text-transform: uppercase;
 }
 
-.red {
-    color: red;
+.yellow {
+    color: yellow;
 }
 
 /*splash img*/
@@ -27,7 +31,7 @@
     position: absolute;
     width: 100%;
     top: 20%;
-    background-color: black;
+    background-color: green;
     opacity: .7;
 }
 
