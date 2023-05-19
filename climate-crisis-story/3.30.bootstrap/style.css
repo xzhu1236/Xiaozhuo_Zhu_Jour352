@@ -1,3 +1,7 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
 /*navbar*/
 
 .nav-custom {
@@ -39,50 +43,55 @@
     padding-top: 10px;
     margin: 0 auto;
     font-size: 6em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Zilla Slab', serif;
 }
 
 .hero-sub {
     padding-bottom: 10px;
     margin: 0 auto;
-    font-family: Helvetica, sans-serif;
     font-size: 1.5em;
 }
 
 /*body*/
 
 #container {
-    width: 1000px;
+    width: 80%;
     margin: 0 auto;
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 100%;
-}
-
-.headline {
-    font-size: 3em;
-    font-weight: 700;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Zilla Slab', serif;
+    line-height: 150%;
 }
 
 .byline {
     font-size: 1em;
     text-transform: uppercase;
     text-align: center;
-    font-family: Helvetica, sans-serif;
 }
 
 .chaphead {
     font-size: 2em;
     font-weight: 700;
-    font-family: Helvetica, sans-serif;
 }
 
-.bodyimg {
-   width: 500px;
+.italic {
+    font-style: italic;
+}
+
+/*Images*/
+
+.bodyimg{
+   display: block;
+   margin: 0 auto;
+}
+
+.lewis {
+    width: 700px;
+}
+
+.alex {
+    width: 700px;
 }
 
 .caption {
@@ -90,17 +99,17 @@ p {
    font-size: .75em;
 }
 
-.imagecap {
-    margin: 0 auto;
-    width: 500px;
-    height: 500px;
+/*Graphics*/
+
+.graphicspace {
+    margin-bottom: 20px;
 }
 
 /*pullquote*/
 
 .pullquote {
-    font-family: 'Jost', sans-serif;
-    color: maroon;
+    font-family: 'Zilla Slab', serif;
+    color: rgb(2, 89, 2);
     font-size: 3em;
     font-weight: 600;
     text-align: left;
@@ -114,20 +123,41 @@ p {
 .quoteattr {
     font-size: .5em;
     font-weight: 400;
+    font-style: italic;
+    color: gray;
 }
 
+/*Sidebar*/
+
 .fancybox {
-    border: 2px goldenrod double;
+    border: 2px rgb(2, 89, 2) double;
+    margin-bottom: 20px;
 }
 
 .boxtitle {
     font-size: 2em;
-    background-color: goldenrod;
+    background-color: rgb(2, 89, 2);
+    color: white;
+    font-weight: bold;
 }
 
 .boxlist {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+/*Link*/
+
+a:link {
+    color: rgb(2, 89, 2);
+}
+
+a:hover {
+    color: blue;
+}
+
+a:visited {
+    color: goldenrod;
 }
 
 .footer {
@@ -138,25 +168,58 @@ p {
     margin: 0;
 }
 
-@media(max-width: 800px) {
-    p {
-        padding-left: 20px;
-        padding-right: 10px;
-    }
+@media(max-width: 767px) {
+    .bodyimg {
+        width: 300px;
+     }
 
-    .headline {
-        font-size: 2em;
+    p {
+        font-size: .75em;
     }
 
     .chaphead {
-        font-size: 1.25em;
+        font-size: 1em;
     }
 
     .hero-head {
+        font-size: 1.25em;
+    }
+
+    .hero-sub {
+        font-size: .75em;
+    }
+
+    .overlay {
+        top: 40%;
+    }
+
+    .caption {
+        font-size: .5em;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .bodyimg {
+        width: 500px;
+     }
+
+    p {
         font-size: 1em;
+    }
+
+    .chaphead {
+        font-size: 1.5em;
+    }
+
+    .hero-head {
+        font-size: 2em;
     }
 
     .hero-sub {
         font-size: 1em;
+    }
+
+    .overlay {
+        top: 40%;
     }
 }
